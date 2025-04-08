@@ -1,0 +1,11 @@
+设置conda镜像源
+conda config --remove-key channels
+
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+
+opencv-python
+shapely
+tqdm
+pycocotools
+pyclipper
